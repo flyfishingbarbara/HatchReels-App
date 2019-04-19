@@ -1,0 +1,65 @@
+h4 {
+  padding: 0;
+  margin: 0;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  line-height: 1.3;
+  font-weight: 600;
+  color: gray;
+  font-size: 0.7rem;
+}
+
+body {
+  background: #eee;
+}
+
+.container {
+  background: #FFF;
+  width: 560px;
+  margin: 0 auto;
+}
+
+header, section {
+  position: fixed;
+  text-align: center;
+  background-color: #FFF;
+  width: 560px;
+}
+
+section {
+  top: 100px;
+}
+
+.logo {
+  width: 180px;
+}
+
+main {
+  padding: 420px 18px 10px;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border: 2px solid #FFF;
+  margin: 0 auto;
+}
+article:hover {
+  border: 2px solid #FF9999;
+  border-radius: 6px;
+}
+
+.thumb {
+  height: 70px;
+  border-radius: 4px;
+}
+
+.details {
+  padding: 10px 28px;
+}
